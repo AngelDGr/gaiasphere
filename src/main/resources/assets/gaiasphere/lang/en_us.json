@@ -1,13 +1,18 @@
 {
-  "itemGroup.examplemod": "Example Mod Tab",
-  "block.examplemod.example_block": "Example Block",
-  "item.examplemod.example_item": "Example Item",
+  "item.gaiasphere.sardine": "Sardine",
+  "item.gaiasphere.pine_sapling": "Pine Sapling",
 
-  "examplemod.configuration.title": "Example Mod Configs",
-  "examplemod.configuration.section.examplemod.common.toml": "Example Mod Configs",
-  "examplemod.configuration.section.examplemod.common.toml.title": "Example Mod Configs",
-  "examplemod.configuration.items": "Item List",
-  "examplemod.configuration.logDirtBlock": "Log Dirt Block",
-  "examplemod.configuration.magicNumberIntroduction": "Magic Number Text",
-  "examplemod.configuration.magicNumber": "Magic Number"
+  "block.gaiasphere.pine_leaves": "Pine Leaves",
+  "block.gaiasphere.pine_wood": "Pine Wood",
+  "block.gaiasphere.pine_planks": "Pine Planks",
+  "block.gaiasphere.pine_stairs": "Pine Stairs",
+  "block.gaiasphere.pine_slab": "Pine Slab",
+  "block.gaiasphere.pine_fence": "Pine Fence",
+  "block.gaiasphere.pine_fence_gate": "Pine Fence Gate",
+  "block.gaiasphere.pine_button": "Pine Button",
+  "block.gaiasphere.pine_pressure_plate": "Pine Pressure Plate",
+  "block.gaiasphere.pine_door": "Pine Door",
+  "block.gaiasphere.pine_trapdoor": "Pine Trapdoor",
+
+  "creativetab.gaiasphere.gaiasphere": "Gaiasphere"
 }
