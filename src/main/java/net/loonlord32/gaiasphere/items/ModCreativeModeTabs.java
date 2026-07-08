@@ -21,15 +21,18 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.PINE_SAPLING);
                         output.accept(ModBlocks.PINE_LEAVES);
                         output.accept(ModBlocks.PINE_WOOD );
+                        output.accept(ModBlocks.PINE_LOG );
                         output.accept(ModBlocks.PINE_PLANKS );
                         output.accept(ModBlocks.PINE_STAIRS );
-                        output.accept(ModBlocks.PINE_SLAB );
                         output.accept(ModBlocks.PINE_PRESSURE_PLATE );
-                        output.accept(ModBlocks.PINE_BUTTON );
                         output.accept(ModBlocks.PINE_DOOR );
                         output.accept(ModBlocks.PINE_TRAPDOOR);
-                        output.accept(ModBlocks.PINE_FENCE );
                         output.accept(ModBlocks.PINE_FENCE_GATE );
+                        output.accept(ModBlocks.ASPEN_PLANKS );
+                        output.accept(ModBlocks.ASPEN_WOOD );
+                        output.accept(ModBlocks.ASPEN_LOG );
+                        output.accept(ModBlocks.GREEN_ASPEN_LEAVES );
+                        output.accept(ModBlocks.YELLOW_ASPEN_LEAVES );
                     }).build());
 
     public static void register(IEventBus eventBus) {

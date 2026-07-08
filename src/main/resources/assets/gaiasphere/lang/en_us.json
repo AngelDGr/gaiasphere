@@ -4,6 +4,7 @@
 
   "block.gaiasphere.pine_leaves": "Pine Leaves",
   "block.gaiasphere.pine_wood": "Pine Wood",
+  "block.gaiasphere.pine_log": "Pine Log",
   "block.gaiasphere.pine_planks": "Pine Planks",
   "block.gaiasphere.pine_stairs": "Pine Stairs",
   "block.gaiasphere.pine_slab": "Pine Slab",
@@ -13,6 +14,11 @@
   "block.gaiasphere.pine_pressure_plate": "Pine Pressure Plate",
   "block.gaiasphere.pine_door": "Pine Door",
   "block.gaiasphere.pine_trapdoor": "Pine Trapdoor",
+  "block.gaiasphere.aspen_wood": "Aspen Wood",
+  "block.gaiasphere.aspen_log": "Aspen Log",
+  "block.gaiasphere.aspen_planks": "Aspen Planks",
+  "block.gaiasphere.green_aspen_leaves": "Green Aspen Leaves",
+  "block.gaiasphere.yellow_aspen_leaves": "Yellow Aspen Leaves",
 
   "creativetab.gaiasphere.gaiasphere": "Gaiasphere"
 }
