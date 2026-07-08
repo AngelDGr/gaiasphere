@@ -21,29 +21,29 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
 
     @Override
     protected void generate() {
-        dropSelf(ModBlocks.PINE_PLANKS.get());
-        dropSelf(ModBlocks.PINE_WOOD.get());
-        dropSelf(ModBlocks.PINE_LOG.get());
-        dropSelf(ModBlocks.PINE_STAIRS.get());
-        dropSelf(ModBlocks.PINE_FENCE_GATE.get());
-        dropSelf(ModBlocks.PINE_PRESSURE_PLATE.get());
-        dropSelf(ModBlocks.PINE_DOOR.get());
-        dropSelf(ModBlocks.PINE_TRAPDOOR.get());
-        dropSelf(ModBlocks.ASPEN_LOG.get());
-        dropSelf(ModBlocks.ASPEN_PLANKS.get());
-        dropSelf(ModBlocks.ASPEN_WOOD.get());
+        this.dropSelf(ModBlocks.PINE_PLANKS.get());
+        this.dropSelf(ModBlocks.PINE_LOG.get());
+        this.dropSelf(ModBlocks.PINE_WOOD.get());
+        this.dropSelf(ModBlocks.PINE_STAIRS.get());
+        this.dropSelf(ModBlocks.PINE_FENCE_GATE.get());
+        this.dropSelf(ModBlocks.PINE_TRAPDOOR.get());
+        this.dropSelf(ModBlocks.PINE_DOOR.get());
+        this.dropSelf(ModBlocks.PINE_PRESSURE_PLATE.get());
+        this.dropSelf(ModBlocks.ASPEN_PLANKS.get());
+        this.dropSelf(ModBlocks.ASPEN_LOG.get());
+        this.dropSelf(ModBlocks.ASPEN_WOOD.get());
 
         add(ModBlocks.PINE_LEAVES.get(),
-                block -> createLeavesDrops(ModBlocks.PINE_LEAVES.get(), ModBlocks.ASPEN_LOG));
-        add(ModBlocks.GREEN_ASPEN_LEAVES.get(),
-                block -> createLeavesDrops(ModBlocks.GREEN_ASPEN_LEAVES.get(), ModBlocks.ASPEN_LOG));
+                block -> this.createLeavesDrops(ModBlocks.PINE_LEAVES.get(), ModBlocks.ASPEN_LOG, NORMAL_LEAVES_SAPLING_CHANCES));
+
+       add(ModBlocks.GREEN_ASPEN_LEAVES.get(),
+                block -> this.createLeavesDrops(ModBlocks.GREEN_ASPEN_LEAVES.get(), ModBlocks.ASPEN_LOG, NORMAL_LEAVES_SAPLING_CHANCES));
+
         add(ModBlocks.YELLOW_ASPEN_LEAVES.get(),
-                block -> createLeavesDrops(ModBlocks.YELLOW_ASPEN_LEAVES.get(), ModBlocks.ASPEN_LOG));
+                block -> this.createLeavesDrops(ModBlocks.YELLOW_ASPEN_LEAVES.get(), ModBlocks.ASPEN_LOG, NORMAL_LEAVES_SAPLING_CHANCES));
     }
 
-    private LootTable.Builder createLeavesDrops(Block leavesBlock, DeferredBlock<Block> aspenLog) {
-        return null;
-    }
+    private LootTable.Builder createLeavesDrops(Block block, DeferredBlock<Block> aspenLog, float[] normalLeavesSaplingChances){return null;}
 
     {
     }
