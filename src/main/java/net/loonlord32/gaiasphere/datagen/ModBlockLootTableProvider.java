@@ -4,6 +4,7 @@ import net.loonlord32.gaiasphere.block.ModBlocks;
 import net.minecraft.core.Holder;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.loot.BlockLootSubProvider;
+import net.minecraft.data.loot.LootTableProvider;
 import net.minecraft.world.flag.FeatureFlags;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.storage.loot.LootTable;
@@ -43,10 +44,9 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
                 block -> this.createLeavesDrops(ModBlocks.YELLOW_ASPEN_LEAVES.get(), ModBlocks.ASPEN_LOG, NORMAL_LEAVES_SAPLING_CHANCES));
     }
 
-    private LootTable.Builder createLeavesDrops(Block block, DeferredBlock<Block> aspenLog, float[] normalLeavesSaplingChances){return null;}
+    private LootTable.Builder createLeavesDrops(Block block, DeferredBlock<Block> aspenLog, float[] normalLeavesSaplingChances){return null;};
 
-    {
-    }
+    {}
 
     @Override
     protected @NotNull Iterable<Block> getKnownBlocks() {
