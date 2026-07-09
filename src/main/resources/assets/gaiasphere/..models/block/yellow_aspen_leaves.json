@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "gaiasphere:block/yellow_aspen_leaves"
-  },
-  "render_type": "minecraft:cutout"
-}
